@@ -14,20 +14,23 @@ pepperoni = input('Do you want pepperoni? Y or N:\n')
 extra_cheese = input('Do you want extra cheese? Y or N:\n')
 bill = 0
 
-if size == "S":
-    bill = 15
-    if pepperoni == "Y":
-        bill += 2
-elif size == "M":
-    bill = 20
-    if pepperoni == "Y":
-        bill += 3
-else:
-    bill = 25
-    if pepperoni == "Y":
-        bill += 3
+# if size == "S":
+#   bill = 15
+#  if pepperoni == "Y":
+#     bill += 2
+# elif size == "M":
+#    bill = 20
+#   if pepperoni == "Y":
+#      bill += 3
+# else:
+#   bill = 25
+#  if pepperoni == "Y":
+#     bill += 3
 
-if extra_cheese == "Y":
-    bill += 1
+# if extra_cheese == "Y":
+#   bill += 1
 
-print(f"Your final bil is: ${bill}. Enjoy your pizza!")
+# print(f"Your final bil is: ${bill}. Enjoy your pizza!")
+
+
+if size == "S" & & pepperoni = "Y" & & extra_cheese = "Y":
