@@ -30,7 +30,7 @@ print('''
 print("Welcome to the incredible Treasure Island!\n Your mission is simple: find the treasure or die trying!")
 
 choice1 = input(
-    "You are running away from the police and come between 2 paths to take. Do you go left or right?\n ").lower()
+    "You\'re running away from the police and come between 2 paths to take. Do you go left or right?\n ").lower()
 
 
 if choice1 == "left":
