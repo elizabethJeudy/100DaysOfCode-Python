@@ -4,7 +4,7 @@ import random
 
 friends = ["Elizabeth", "Yahaira", "Jeyson", "Eve", "Wadlene"]
 
-# random.choice allows for multiple values vs .randit
+# random.choice selects a random element from the list
 payer = random.choice(friends)
 
 
